@@ -14,6 +14,7 @@ export default class ProfileScreen extends Component {
   }
 
   render() {
+    
     const email = this.props.navigation.getParam("userEmail",'No Value Entered')
     
     return (
