@@ -11,10 +11,10 @@ export default class HomeScreen extends Component {
     return (
         <ScrollView  style={{backgroundColor:'#d9c5b8'}}>
       <View>
-        <Text> HomeScreen </Text>
+        <Text> Home Screen </Text>
         <AlbumList/>
       </View>
       </ScrollView>
-    );
+    ); 
   }
 }
